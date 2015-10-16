@@ -1,6 +1,6 @@
 {
-  "name": "isomorphic-react-authentication",
-  "version": "0.0.5",
+  "name": "isomorphic-react-authentication-server",
+  "version": "0.0.6",
   "description": "Provides authentication functionality for isomorphic-react-base-app.",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spanias/isomorphic-react-authentication"
+    "url": "https://github.com/spanias/isomorphic-react-authentication-server"
   },
   "keywords": [
     "authentication",
@@ -22,6 +22,9 @@
     "aws-dynamodb": "^0.1.45",
     "jsonwebtoken": "^5.4.0",
     "password-hash-and-salt": "^0.1.2"
+  },
+  "peerDependencies" : {
+    "isomorphic-react-authentication": "^0.0.6"
   },
   "devDependencies": {
     "babel-runtime": "^5.8.25",
